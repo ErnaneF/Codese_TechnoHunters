@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="./styles/contato.css">
+    <title>Contato</title>
+</head>
+
+
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="./assets/Logo Codesf 2.png" alt="Descrição da imagem"></a>
+                <a href="#" data-activates="menu-mobile" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./codesf.html">CODESF</a></li>
+                    <li><a href="./Empresas.html">Empresas</a></li>
+                    <li><a href="./arquivos.html">Arquivos</a></li>
+                    <li><a href="./projetos.html">Projetos</a></li>
+                    <li><a href="./noticia.html">Notícias</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+                <ul class="side-nav" id="menu-mobile">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./codesf.html">CODESF</a></li>
+                    <li><a href="./Empresas.html">Empresas</a></li>
+                    <li><a href="./arquivos.html">Arquivos</a></li>
+                    <li><a href="./projetos.html">Projetos</a></li>
+                    <li><a href="./noticia.html">Notícias</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+
+        
+        <div class="contato">
+            <h1>Entre em Contato</h1>
+            <form id="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+    
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <textarea id="assunto" name="assunto" placeholder="Assunto" rows="5" required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Enviar</button>
+                    <input type="file" id="arquivo" name="arquivo">
+    
+                    <div class="filiacao">
+                        <a class="filiacao-link" href="caminho_para_o_arquivo.pdf" target="_blank">Download Ficha de Filiação</a>
+                    </div>
+                </div>
+    
+            </form>
+        </div>
+        </div>
+        <div>
+    
+        </div class="grid-container">
+            <div class="endereco">
+                <div class="address">
+                    <i class="loc-icon">Endereço</i>
+                    <a href="https://www.google.com/maps/place/ACIF+CDL+Frutal/@-20.0238767,-48.9250835,15z/data=!4m6!3m5!1s0x94bcb10163686f81:0x37d75b06868783fe!8m2!3d-20.0238767!4d-48.9250835!16s%2Fg%2F11c5s37hjs?entry=ttu" style="text-decoration:none; color: #374782;" target="_blank" >
+                        <p> Avenida Brasília, 54</p>
+                        <p>Jardim das Laranjeiras</p>
+                        <p>Frutal/MG</p>
+                        <p>CEP: 38204-136</p>
+                    </a>
+
+                    
+                </div>
+                <div class="phone">
+                    <i class="phone-icon"></i>
+                    <a href="#" style="text-decoration: none; color: #374782 ;" target="_blank"> <p >(34) 3421-6300</p></a>
+                </div>
+                <div class="email">
+                    <i class="email-icon"></i>
+                    <a href="mailto:codesfrutal@gmail.com" style="text-decoration: none; color: #374782 ;" target="_blank"><p>codesfrutal@gmail.com</p></a>
+
+                </div>
+                
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14994.535373619905!2d-48.9250835!3d-20.0238767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bcb10163686f81%3A0x37d75b06868783fe!2sACIF%20CDL%20Frutal!5e0!3m2!1spt-BR!2sbr!4v1714448923754!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="scripts/navbar.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="./styles/style_not.css">
+    <title>Notícias</title>
+</head>
+
+<body>
+
+    
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="./assets/Logo Codesf 2.png" alt="Descrição da imagem"></a>
+                <a href="#" data-activates="menu-mobile" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./codesf.html">CODESF</a></li>
+                    <li><a href="./Empresas.html">Empresas</a></li>
+                    <li><a href="./arquivos.html">Arquivos</a></li>
+                    <li><a href="./projetos.html">Projetos</a></li>
+                    <li><a href="./noticia.html">Notícias</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+                <ul class="side-nav" id="menu-mobile">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./codesf.html">CODESF</a></li>
+                    <li><a href="./Empresas.html">Empresas</a></li>
+                    <li><a href="./arquivos.html">Arquivos</a></li>
+                    <li><a href="./projetos.html">Projetos</a></li>
+                    <li><a href="./noticia.html">Notícias</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="newletter">
+            <h2><i class="news-icon"></i> NEWSLETTER </h2>
+            <p>Assine a Newsletter para receber as notícias em tempo real </p>
+            <form id="formulario-newletter">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+
+        <section class="noticias">
+            <h2> Nóticias Recentes</h2>
+            <div class="news-content">
+                <article>
+                    <h3>Título da notícia 1</h3>
+                    <p>Conteudo da noticia 1. </p>
+                    <a href="#">Lipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel congue egestas, <br>dui velit auctor magna, vel condimentum augue nisi vel nunc.</a> 
+                </article>
+            </div>
+			<article>
+				<h3>Título da notícia 2</h3>
+				<p>Conteudo da noticia 2. </p>
+                <a href="#">Lipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel congue egestas, <br>dui velit auctor magna, vel condimentum augue nisi vel nunc.</a> 
+			</article>
+            <article>
+				<h3>Título da notícia 3</h3>
+				<p>Conteudo da noticia 3. </p>
+                <a href="#">Lipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel congue egestas, <br>dui velit auctor magna, vel condimentum augue nisi vel nunc.</a> 
+			</article>
+            <article>
+				<h3>Título da notícia 4</h3>
+				<p>Conteudo da noticia 4. </p>
+                <a href="#">Lipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel congue egestas,<br> dui velit auctor magna, vel condimentum augue nisi vel nunc.</a> 
+			</article>
+        </section>
+        <section id="events">
+            <h2> <i class="events-icon"></i> Próximos eventos</h2>
+            <article>
+                <h3>Titulo do Evento 1</h3>
+                <p>Descrição do evento 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna velcongue egestas, <br> dui velit auctor magna, vel condimentum augue nisi vel nunc.</p>
+            </article>
+            <article>
+                <h3>Titulo do Evento 2</h3>
+                <p>Descrição do evento 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel
+                    congue egestas, dui velit auctor magna, vel condimentum augue nisi vel nunc.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape" id="contato">
+        <div class="rodape-div">
+    
+            <div class="rodape-div-1">
+                <div class="rodape-div-1-coluna">
+                    <!-- elemento -->
+                    <span class="logo-footer"><img src="./assets/Logo Codesf 2.png" alt="" srcset=""></span>
+                    <p>Avenida Brasília, 54 -Jardim das Laranjeiras, Frutal - MG, CEP: 38204-136</p>
+                </div>
+            </div>
+    
+            <div class="rodape-div-2">
+                <div class="rodape-div-2-coluna">
+                    <!-- elemento -->
+                    <span class="footer-title"><b>Contatos</b></span>
+                    <p>contato@na.na</p>
+                    <p>+55 63 99200-0000</p>
+                </div>
+            </div>
+    
+            <div class="rodape-div-3">
+                <div class="rodape-div-3-coluna">
+                    <!-- elemento -->
+                    <span class="footer-title"><b>Links</b></span>
+                    <p><a href="./projetos.html">Projetos</a></p>
+                    <p><a href="./noticia.html">Notícias</a></p>
+                    <p><a href="./contato.html">Contato</a></p>
+                </div>
+            </div>
+    
+            <div class="rodape-div-4">
+                <div class="rodape-div-4-coluna">
+                    <!-- elemento -->
+                    <span class="footer-title"><b>Outros</b></span>
+                    <p>Políticas de Privacidade</p>
+                </div>
+            </div>
+    
+        </div>
+        <p class="rodape-direitos">Copyright © 2024 – Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="scripts/navbar.js"></script>
+</body>
+
+</html>
